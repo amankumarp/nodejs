@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class='jumbotron jumbotron-fluid m-0 p-0'>
+    <div>
+        <div class='row'>
+            <div class='col-md-6 p-5 offset-md-3'>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title text-center">Create Account</div>
+                    </div>
+                    <div class='card-body'>
+                        <form method="POST" class='form-group' >
+                            <div class='form-group'>
+                                <label>Name</label>
+                                <input type='text' name='name' placeholder=" Name " class='form-control' required/>
+                            </div>
+                            <div class='form-group'>
+                                <label>Email</label>
+                                <input type='email' name='email' placeholder="Email (someone@gmail.com)" class='form-control' required/>
+                            </div>
+                            <div class='form-group'>
+                                <label>Password</label>
+                                <input type='password' name='password' placeholder="Password" class='form-control' required/>
+                            </div>
+                            <div class='form-group'>
+                                <label>Confirm Password</label>
+                                <input type='password' name='conf_password' placeholder="Confirm Password" class='form-control' required/>
+                            </div>
+                    </div>
+                    <div class='card-footer'>
+                        <input type='submit' class="btn btn-success btn-block" value='Signup' />
+                        <a href="http://localhost:3000/login">Already have a account ?Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+
+</script>
+</html>
